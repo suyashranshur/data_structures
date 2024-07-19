@@ -1,7 +1,4 @@
 public class dsa1 {
-
-    
-
     public static void function1(int planth[]) {
 
         for (int i=1;i<planth.length-1;i++){
