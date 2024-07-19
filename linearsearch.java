@@ -10,15 +10,19 @@ public class linearsearch {
         Scanner sc = new Scanner(System.in);
 
         int num = sc.nextInt();
+        int count=0;
 
         for (int i =0 ;i<arr.length;i++){
             if (num == arr[i]){
-                System.out.println("This number is present in array ,At position :"+i);
+                count++;
             }
-  
+        }
+        if (count>0){
+            System.out.println("This number is present in array ,At position :");
+        }
+        else{
+            System.out.println("This number is not present");
         }
         
-
-
     }
 }
