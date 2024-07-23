@@ -1,7 +1,10 @@
 public class hello {
     public static void main(String[] args) {
-        System.out.println("hello");
-        System.out.println("12345");
-        System.out.println("done");
+        int a=0;
+
+        while(a<26){
+            a=a+3;
+        }
+        System.out.println(a);
     }
 }
